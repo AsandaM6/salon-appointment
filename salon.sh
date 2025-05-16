@@ -1,7 +1,7 @@
 #! /bin/bash
 PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 echo -e "\n~~~~~ MY SALON ~~~~~\n"
-echo Welcome to My Salon, how can I help you?
+echo -e "Welcome to My Salon, how can I help you?\n"
 
 MAIN_MENU(){
  
